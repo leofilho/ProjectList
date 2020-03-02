@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class TechList extends Component {
   state = {
     newTech: "",
-    techs: ["Node.js", "ReactJS", "React Native"]
+    techs: ["Node.JS", "ReactJS", "React Native"]
   };
 
   handleInputChange = e => {
